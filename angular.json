@@ -105,9 +105,11 @@
           "builder": "@angular-builders/jest:run"
         }
       }
-    }},
+    }
+  },
   "defaultProject": "spectator-jest",
   "cli": {
-    "defaultCollection": "@ngneat/spectator"
+    "defaultCollection": "@ngneat/spectator",
+    "analytics": false
   }
 }
